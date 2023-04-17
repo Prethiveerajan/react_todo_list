@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import ToComponent from './components/ToComponent/ToComponent'
-import DropComponent from './components/DropComponents/DropCompoent';
 
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
     <div className="App">
      
       <ToComponent/>
-      {/* <DropComponent/> */}
+      
 
     </div>
   );
