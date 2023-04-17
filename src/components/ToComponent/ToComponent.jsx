@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Dropdown from "../DropComponent/DropDownComponent";
-import './ToComponent.css'
-
+import './toComponent.css'
 function TodoList() {
   const [todos, setTodos] = useState([]);
   const [todoInput, setTodoInput] = useState("");

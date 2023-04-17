@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import ToComponent from './components/ToComponent/ToComponent'
+import DropComponent from './components/DropComponents/DropCompoent';
+
 
 function App() {
   return (
@@ -18,8 +20,9 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
-      <ToComponent/>
+      // </header> */}
+      {/* <ToComponent/> */}
+      <DropComponent/>
 
     </div>
   );
